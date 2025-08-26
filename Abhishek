@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage Biodata - Abhishek Sharma</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chosen Palette: Serene Peach and Sage -->
+    <!-- Application Structure Plan: A single-page, top-down scrolling layout is used to present the biodata in a narrative, easy-to-follow manner. The information is segmented into logical cards (Profile, Education & Career, Family, Contact) for clarity. A sticky navigation bar allows users to jump to any section, enhancing usability. This structure was chosen because it's clean, modern, and presents personal information in a dignified and highly readable format, which is ideal for a marriage biodata. -->
+    <!-- Visualization & Content Choices: All information is presented using structured HTML and styled with Tailwind CSS. The goal is to inform and organize. Key details are paired with Unicode icons for quick visual association (e.g., 🎂 for DOB). This method avoids complex visualizations, focusing on elegant typography and layout to convey information clearly and professionally. No charts or graphs are needed as the source data is purely qualitative. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-[#FFF8F0] text-[#4A4A4A]">
+
+    <header class="bg-[#FFF8F0]/80 backdrop-blur-md sticky top-0 z-50 border-b border-[#EAE0D5]">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-playfair font-bold text-[#5C5C5C]">
+                Abhishek Sharma
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#profile" class="hover:text-[#D4A373] transition-colors duration-300">Profile</a>
+                <a href="#career" class="hover:text-[#D4A373] transition-colors duration-300">Career</a>
+                <a href="#family" class="hover:text-[#D4A373] transition-colors duration-300">Family</a>
+                <a href="#contact" class="hover:text-[#D4A373] transition-colors duration-300">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        
+        <section id="profile" class="mb-16 text-center">
+            <div class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-[#EAE0D5]">
+                 <div class="w-32 h-32 mx-auto rounded-full mb-6 flex items-center justify-center overflow-hidden border-4 border-[#EAE0D5]">
+                    <img src="https://googleusercontent.com/file_content/1" alt="Profile Photo of Abhishek Sharma" class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-5xl font-playfair font-bold text-[#333] mb-4">Abhishek Sharma</h1>
+                <p class="text-lg text-gray-600 mb-10">This biodata provides a glimpse into my personal and professional life. I believe in the values of family, respect, and partnership.</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                    <div class="bg-[#F9F5F0] p-4 rounded-lg">
+                        <p class="font-semibold text-gray-700">🎂 Date of Birth</p>
+                        <p class="text-gray-600">October 4, 1994</p>
+                    </div>
+                    <div class="bg-[#F9F5F0] p-4 rounded-lg">
+                        <p class="font-semibold text-gray-700">📍 Place of Birth</p>
+                        <p class="text-gray-600">Sikar, Rajasthan</p>
+                    </div>
+                    <div class="bg-[#F9F5F0] p-4 rounded-lg">
+                        <p class="font-semibold text-gray-700">📏 Height</p>
+                        <p class="text-gray-600">5' 8"</p>
+                    </div>
+                    <div class="bg-[#F9F5F0] p-4 rounded-lg">
+                        <p class="font-semibold text-gray-700">🎨 Complexion</p>
+                        <p class="text-gray-600">Fair</p>
+                    </div>
+                    <div class="bg-[#F9F5F0] p-4 rounded-lg col-span-1 sm:col-span-2">
+                        <p class="font-semibold text-gray-700"> ancestral Gotra (Mother's / Father's)</p>
+                        <p class="text-gray-600">Matolia / Sundariya</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="mb-16">
+             <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-playfair font-bold text-center mb-8 text-[#333]">Education & Career</h2>
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-[#EAE0D5]">
+                    <p class="text-center text-gray-600 mb-8">My academic background and professional endeavors have shaped my journey. I am passionate about my work and always strive for growth.</p>
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <div class="flex-1 bg-[#F9F5F0] p-6 rounded-lg text-center">
+                            <div class="text-4xl mb-3">🎓</div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-800">Education</h3>
+                            <p class="text-lg text-gray-600">B.Com, BBA</p>
+                        </div>
+                        <div class="flex-1 bg-[#F9F5F0] p-6 rounded-lg text-center">
+                            <div class="text-4xl mb-3">💼</div>
+                            <h3 class="text-2xl font-bold mb-2 text-gray-800">Occupation</h3>
+                            <p class="text-lg text-gray-600">E-Commerce Business, Hostel & Shop in Market</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="family" class="mb-16">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-playfair font-bold text-center mb-8 text-[#333]">Family Background</h2>
+                 <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-[#EAE0D5]">
+                    <p class="text-center text-gray-600 mb-8">I come from a close-knit and supportive family based in Sikar. Our family values tradition while embracing a modern outlook.</p>
+                    <ul class="space-y-6">
+                        <li class="flex items-center p-4 bg-[#F9F5F0] rounded-lg">
+                            <span class="text-2xl mr-4">👨‍💼</span>
+                            <div>
+                                <p class="font-bold text-gray-800">Rajkumar Sharma</p>
+                                <p class="text-sm text-gray-600">Father, Businessman</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center p-4 bg-[#F9F5F0] rounded-lg">
+                             <span class="text-2xl mr-4">👩‍🍳</span>
+                            <div>
+                                <p class="font-bold text-gray-800">Kanta Sharma</p>
+                                <p class="text-sm text-gray-600">Mother, Housewife</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center p-4 bg-[#F9F5F0] rounded-lg">
+                             <span class="text-2xl mr-4">👨‍💻</span>
+                            <div>
+                                <p class="font-bold text-gray-800">Rahul Sharma</p>
+                                <p class="text-sm text-gray-600">Brother, Software Engineer</p>
+                            </div>
+                        </li>
+                         <li class="flex items-center p-4 bg-[#F9F5F0] rounded-lg">
+                             <span class="text-2xl mr-4">👷‍♀️</span>
+                            <div>
+                                <p class="font-bold text-gray-800">Priyanka Sharma</p>
+                                <p class="text-sm text-gray-600">Sister-in-Law, Civil Engineer</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-playfair font-bold text-center mb-8 text-[#333]">Contact Information</h2>
+                <div class="bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-[#EAE0D5]">
+                    <p class="text-center text-gray-600 mb-8">For further communication, my family can be reached at the following address and numbers. We look forward to hearing from you.</p>
+                    <div class="space-y-6 text-center">
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-800 mb-2">📞 Phone Numbers</h3>
+                            <a href="tel:+919829731515" class="text-gray-600 hover:text-[#D4A373] block">Father: +91 98297 31515</a>
+                            <a href="tel:+919148039480" class="text-gray-600 hover:text-[#D4A373] block">Brother: +91 91480 39480</a>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-800 mb-2">🏠 Residential Address</h3>
+                            <p class="text-gray-600">469, Ramnagar, Nawalgarh Road, <br> Behind Amber Tent House, Sikar, Rajasthan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#EAE0D5] mt-16">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <p>&copy; 2024 Abhishek Sharma. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
